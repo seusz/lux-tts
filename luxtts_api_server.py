@@ -142,6 +142,11 @@ async def generate_speech(
             device=device
         )
         
+        # 释放显存 - 修复显存不释放 bug
+        import torch
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        
         # 保存为 WAV
         from scipy.io import wavfile
         import tempfile

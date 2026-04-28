@@ -64,6 +64,11 @@ class LuxTTSAPI:
                 device=self.device
             )
             
+            # 释放显存 - 修复显存不释放 bug
+            import torch
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            
             # 转换为 WAV 格式
             audio_bytes = io.BytesIO()
             wavfile.write(audio_bytes, 22050, audio)
