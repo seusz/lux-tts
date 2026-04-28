@@ -1,0 +1,6 @@
+description: 自动加载 soul-profile 技能到每次新会话
+events:
+- session:start
+- session:reset
+name: soul-loader
+priority: 10

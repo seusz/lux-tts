@@ -1,0 +1,10 @@
+08:19:36 interrupt fired: msg='APP ID：1903847029，APP secret：kQt9ByW4TjpoleP6', children=0, parent._interrupt=True
+08:19:36 ENTER: queued interrupt msg='APP ID：1903847029，APP secret：kQt9ByW4TjpoleP6', agent_running=True
+08:49:18 ENTER: queued interrupt msg='exit', agent_running=True
+08:49:18 interrupt fired: msg='exit', children=0, parent._interrupt=True
+13:45:55 ENTER: queued interrupt msg='exit', agent_running=True
+13:45:55 interrupt fired: msg='exit', children=0, parent._interrupt=True
+14:10:12 interrupt fired: msg='exit', children=0, parent._interrupt=True
+14:10:12 ENTER: queued interrupt msg='exit', agent_running=True
+06:15:15 ENTER: queued interrupt msg='wechat', agent_running=True
+06:15:15 interrupt fired: msg='wechat', children=0, parent._interrupt=True

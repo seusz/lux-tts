@@ -1,0 +1,13 @@
+2026-04-16 08:56:46,598 WARNING gateway.run: No user allowlists configured. All unauthorized users will be denied. Set GATEWAY_ALLOW_ALL_USERS=true in ~/.hermes/.env to allow open access, or configure platform allowlists (e.g., TELEGRAM_ALLOWED_USERS=your_id).
+2026-04-16 09:17:31,522 WARNING gateway.platforms.qqbot: [QQBot] WebSocket error: WebSocket closed
+2026-04-16 09:35:45,153 WARNING gateway.platforms.qqbot: [QQBot] WebSocket error: WebSocket closed
+2026-04-16 09:53:17,825 WARNING gateway.platforms.qqbot: [QQBot] WebSocket error: WebSocket closed
+2026-04-16 10:26:48,962 WARNING gateway.platforms.qqbot: [QQBot] WebSocket error: WebSocket closed
+2026-04-16 10:45:37,410 WARNING gateway.platforms.qqbot: [QQBot] WebSocket error: WebSocket closed
+2026-04-16 10:46:45,251 WARNING gateway.platforms.qqbot: [QQBot] WebSocket error: WebSocket closed
+2026-04-16 13:44:08,299 WARNING gateway.run: Shutdown diagnostic — other hermes processes running:
+  root           1  0.0  0.0   4056  2972 ?        Ss   08:35   0:00 /bin/bash -c nohup hermes gateway run > /tmp/gateway.log 2>&1 & nohup hermes dashboard --host 0.0.0.0 --port 9119 --no-open --insecure > /tmp/dashboard.log 2>&1 & sleep infinity
+  root           8  0.3  0.5 423896 95972 ?        Sl   08:35   1:07 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes dashboard --host 0.0.0.0 --port 9119 --no-open --insecure
+  root          82  2.3  2.0 994484 330836 pts/0   Sl+  08:46   7:05 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes chat
+  root         209  1.8  1.9 924332 323632 pts/1   Sl+  08:49   5:27 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes chat
+  root         994 22.5  0.8 652456 145456 pts/2   Sl+  13:41   0:34 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes chat

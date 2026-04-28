@@ -1,0 +1,67 @@
+2026-04-16 08:56:46,564 INFO tools.tirith_security: tirith not found — downloading latest release for x86_64-unknown-linux-gnu...
+2026-04-16 08:56:46,578 INFO gateway.run: Starting Hermes Gateway...
+2026-04-16 08:56:46,578 INFO gateway.run: Session storage: /opt/data/home/.hermes/sessions
+2026-04-16 08:56:46,598 WARNING gateway.run: No user allowlists configured. All unauthorized users will be denied. Set GATEWAY_ALLOW_ALL_USERS=true in ~/.hermes/.env to allow open access, or configure platform allowlists (e.g., TELEGRAM_ALLOWED_USERS=your_id).
+2026-04-16 08:56:46,610 INFO gateway.run: Connecting to qqbot...
+2026-04-16 08:56:47,179 INFO gateway.platforms.qqbot: [QQBot] Access token refreshed, expires in 5759s
+2026-04-16 08:56:47,608 INFO gateway.platforms.qqbot: [QQBot] Gateway URL: wss://api.sgroup.qq.com/websocket
+2026-04-16 08:56:47,744 INFO gateway.platforms.qqbot: [QQBot] WebSocket connected to wss://api.sgroup.qq.com/websocket
+2026-04-16 08:56:47,745 INFO gateway.platforms.qqbot: [QQBot] Connected
+2026-04-16 08:56:47,747 INFO gateway.run: ✓ qqbot connected
+2026-04-16 08:56:47,749 INFO gateway.run: 1 hook(s) loaded
+2026-04-16 08:56:47,750 INFO gateway.run: Gateway running with 1 platform(s)
+2026-04-16 08:56:47,815 INFO gateway.run: Channel directory built: 0 target(s)
+2026-04-16 08:56:47,816 INFO gateway.run: Press Ctrl+C to stop
+2026-04-16 08:56:47,826 INFO gateway.platforms.qqbot: [QQBot] Identify sent
+2026-04-16 08:56:47,872 INFO gateway.run: Cron ticker started (interval=60s)
+2026-04-16 08:56:47,952 INFO gateway.platforms.qqbot: [QQBot] Ready, session_id=ef0e1137-13e3-44f3-915b-a69fec2f000c
+2026-04-16 09:17:31,522 WARNING gateway.platforms.qqbot: [QQBot] WebSocket error: WebSocket closed
+2026-04-16 09:17:31,527 INFO gateway.platforms.qqbot: [QQBot] Reconnecting in 2s (attempt 1)...
+2026-04-16 09:17:34,210 INFO gateway.platforms.qqbot: [QQBot] WebSocket connected to wss://api.sgroup.qq.com/websocket
+2026-04-16 09:17:34,213 INFO gateway.platforms.qqbot: [QQBot] Reconnected
+2026-04-16 09:17:34,215 INFO gateway.platforms.qqbot: [QQBot] Resume sent (session_id=ef0e1137-13e3-44f3-915b-a69fec2f000c, seq=1)
+2026-04-16 09:17:34,331 INFO gateway.platforms.qqbot: [QQBot] Session resumed
+2026-04-16 09:35:45,153 WARNING gateway.platforms.qqbot: [QQBot] WebSocket error: WebSocket closed
+2026-04-16 09:35:45,155 INFO gateway.platforms.qqbot: [QQBot] Reconnecting in 2s (attempt 1)...
+2026-04-16 09:35:47,874 INFO gateway.platforms.qqbot: [QQBot] WebSocket connected to wss://api.sgroup.qq.com/websocket
+2026-04-16 09:35:47,879 INFO gateway.platforms.qqbot: [QQBot] Reconnected
+2026-04-16 09:35:47,882 INFO gateway.platforms.qqbot: [QQBot] Resume sent (session_id=ef0e1137-13e3-44f3-915b-a69fec2f000c, seq=2)
+2026-04-16 09:35:47,971 INFO gateway.platforms.qqbot: [QQBot] Session resumed
+2026-04-16 09:53:17,825 WARNING gateway.platforms.qqbot: [QQBot] WebSocket error: WebSocket closed
+2026-04-16 09:53:17,830 INFO gateway.platforms.qqbot: [QQBot] Reconnecting in 2s (attempt 1)...
+2026-04-16 09:53:20,507 INFO gateway.platforms.qqbot: [QQBot] WebSocket connected to wss://api.sgroup.qq.com/websocket
+2026-04-16 09:53:20,510 INFO gateway.platforms.qqbot: [QQBot] Reconnected
+2026-04-16 09:53:20,512 INFO gateway.platforms.qqbot: [QQBot] Resume sent (session_id=ef0e1137-13e3-44f3-915b-a69fec2f000c, seq=3)
+2026-04-16 09:53:20,590 INFO gateway.platforms.qqbot: [QQBot] Session resumed
+2026-04-16 10:26:48,962 WARNING gateway.platforms.qqbot: [QQBot] WebSocket error: WebSocket closed
+2026-04-16 10:26:48,968 INFO gateway.platforms.qqbot: [QQBot] Reconnecting in 2s (attempt 1)...
+2026-04-16 10:26:51,697 INFO gateway.platforms.qqbot: [QQBot] WebSocket connected to wss://api.sgroup.qq.com/websocket
+2026-04-16 10:26:51,700 INFO gateway.platforms.qqbot: [QQBot] Reconnected
+2026-04-16 10:26:51,705 INFO gateway.platforms.qqbot: [QQBot] Resume sent (session_id=ef0e1137-13e3-44f3-915b-a69fec2f000c, seq=4)
+2026-04-16 10:26:51,787 INFO gateway.platforms.qqbot: [QQBot] Session resumed
+2026-04-16 10:45:37,410 WARNING gateway.platforms.qqbot: [QQBot] WebSocket error: WebSocket closed
+2026-04-16 10:45:37,414 INFO gateway.platforms.qqbot: [QQBot] Reconnecting in 2s (attempt 1)...
+2026-04-16 10:45:44,673 INFO gateway.platforms.qqbot: [QQBot] Access token refreshed, expires in 6774s
+2026-04-16 10:45:45,304 INFO gateway.platforms.qqbot: [QQBot] WebSocket connected to wss://api.sgroup.qq.com/websocket
+2026-04-16 10:45:45,308 INFO gateway.platforms.qqbot: [QQBot] Reconnected
+2026-04-16 10:45:45,310 INFO gateway.platforms.qqbot: [QQBot] Resume sent (session_id=ef0e1137-13e3-44f3-915b-a69fec2f000c, seq=5)
+2026-04-16 10:45:45,426 INFO gateway.platforms.qqbot: [QQBot] Session resumed
+2026-04-16 10:46:45,251 WARNING gateway.platforms.qqbot: [QQBot] WebSocket error: WebSocket closed
+2026-04-16 10:46:45,255 INFO gateway.platforms.qqbot: [QQBot] Reconnecting in 2s (attempt 1)...
+2026-04-16 10:46:47,850 INFO gateway.platforms.qqbot: [QQBot] WebSocket connected to wss://api.sgroup.qq.com/websocket
+2026-04-16 10:46:47,853 INFO gateway.platforms.qqbot: [QQBot] Reconnected
+2026-04-16 10:46:47,855 INFO gateway.platforms.qqbot: [QQBot] Resume sent (session_id=ef0e1137-13e3-44f3-915b-a69fec2f000c, seq=6)
+2026-04-16 10:46:47,970 INFO gateway.platforms.qqbot: [QQBot] Session resumed
+2026-04-16 13:44:08,289 INFO gateway.run: Received SIGTERM/SIGINT — initiating shutdown
+2026-04-16 13:44:08,299 WARNING gateway.run: Shutdown diagnostic — other hermes processes running:
+  root           1  0.0  0.0   4056  2972 ?        Ss   08:35   0:00 /bin/bash -c nohup hermes gateway run > /tmp/gateway.log 2>&1 & nohup hermes dashboard --host 0.0.0.0 --port 9119 --no-open --insecure > /tmp/dashboard.log 2>&1 & sleep infinity
+  root           8  0.3  0.5 423896 95972 ?        Sl   08:35   1:07 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes dashboard --host 0.0.0.0 --port 9119 --no-open --insecure
+  root          82  2.3  2.0 994484 330836 pts/0   Sl+  08:46   7:05 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes chat
+  root         209  1.8  1.9 924332 323632 pts/1   Sl+  08:49   5:27 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes chat
+  root         994 22.5  0.8 652456 145456 pts/2   Sl+  13:41   0:34 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes chat
+2026-04-16 13:44:08,302 INFO gateway.run: Stopping gateway...
+2026-04-16 13:44:08,307 INFO gateway.platforms.qqbot: [QQBot] Disconnected
+2026-04-16 13:44:08,307 INFO gateway.run: ✓ qqbot disconnected
+2026-04-16 13:44:09,881 INFO gateway.run: Gateway stopped
+2026-04-16 13:44:09,882 INFO gateway.run: Cron ticker stopped
+2026-04-16 13:44:10,682 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.

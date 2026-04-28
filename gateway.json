@@ -1,0 +1,30 @@
+{
+  "allow_all_users": true,
+  "platforms": {
+    "feishu": {
+      "enabled": true,
+      "app_id": "cli_a92b8a954d78dcc9",
+      "app_secret": "IVnew39vUbmEApffhVr0jff2fYmnGdFm"
+    },
+    "qqbot": {
+      "enabled": true,
+      "app_id": "1903847029",
+      "client_secret": "kQt9ByW4TjpoleP6",
+      "home_channel": {
+        "platform": "qqbot",
+        "chat_id": "6DEAF2F03CBA3FFDB36ADA1F90610BBA",
+        "name": "Home"
+      }
+    }
+  },
+  "reset_by_platform": {
+    "feishu": {
+      "mode": "idle",
+      "idle_minutes": 1440
+    },
+    "qqbot": {
+      "mode": "idle",
+      "idle_minutes": 1440
+    }
+  }
+}
